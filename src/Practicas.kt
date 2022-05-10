@@ -81,4 +81,12 @@ fun main() {
     println(dias.joinToString("&"))//Se le puede pasar un parametro de separacion de los elementos del array
 
     //Carga de datos de un array 013308
+    val arregloNuevo = IntArray(10)
+    contador = 1
+    for (i in arregloNuevo.indices){
+        arregloNuevo[i] = contador
+        contador++
+    }
+    println(arregloNuevo.joinToString("-"))
+
 }
